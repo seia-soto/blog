@@ -23,11 +23,11 @@ const optimizeImages = async (root) => {
 
   for (let i = 0, l = files.length; i < l; i++) {
     const file = files[i]
-    const data = await sharp(files[i])
+    const data = await sharp(file)
       .webp()
       .toBuffer()
 
-    fs.writeFileSync(removeExtension(files[i]) + '.webp', data)
+    fs.writeFileSync(removeExtension(file) + '.webp', data)
   }
 }
 

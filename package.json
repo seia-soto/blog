@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "Seia-Soto <seia@outlook.kr>",
   "license": "MIT",
+  "packageManager": "yarn@3.0.2",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -19,27 +20,27 @@
     "optimize:images": "node scripts/optimize/images"
   },
   "dependencies": {
-    "next": "^11.1.0",
+    "next": "^11.1.2",
     "next-compose-plugins": "^2.2.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@stitches/react": "^0.2.5",
-    "@types/node": "^16.6.1",
-    "@types/react": "^17.0.18",
-    "@typescript-eslint/eslint-plugin": "^4.29.2",
-    "@typescript-eslint/parser": "^4.29.2",
-    "eslint": "^7.32.0",
+    "@stitches/react": "^1.2.5",
+    "@types/node": "^16.11.0",
+    "@types/react": "^17.0.30",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.1",
     "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-react": "^7.24.0",
-    "serve": "^12.0.0",
+    "eslint-plugin-react": "^7.26.1",
+    "serve": "^12.0.1",
     "sharp": "^0.29.1",
     "standard-version": "^9.3.1",
-    "typescript": "^4.3.5"
+    "typescript": "^4.4.4"
   }
 }
