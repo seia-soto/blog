@@ -6,4 +6,11 @@ export const {
   css,
   globalCss,
   getCssText
-} = createStitches({})
+} = createStitches()
+
+export const light = createTheme({
+  colors: {
+    content: 'white',
+    background: 'black'
+  }
+})

@@ -10,7 +10,7 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "lint": "eslint src/**/*.*",
+    "lint": "eslint src/**/*.* scripts/**/*.*",
     "release": "standard-version",
     "release:pre": "standard-version --prerelease",
     "release:minor": "standard-version --release-as minor",

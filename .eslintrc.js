@@ -5,6 +5,7 @@ module.exports = {
   },
   extends: [
     'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
     'standard'
   ],
   parser: '@typescript-eslint/parser',
@@ -20,5 +21,12 @@ module.exports = {
     '@typescript-eslint'
   ],
   rules: {
+    indent: 'off',
+    '@typescript-eslint/indent': ['error', 2]
+  },
+  settings: {
+    react: {
+      version: 'detect'
+    }
   }
 }
