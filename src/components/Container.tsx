@@ -2,7 +2,7 @@ import { styled } from '../styles/theme'
 
 export const Wrap = styled('div', {
   margin: '0 auto',
-  padding: '14px',
+  padding: '16px',
 
   maxWidth: '900px',
 
@@ -22,6 +22,22 @@ export const Wrap = styled('div', {
       true: {
         margin: 0,
         padding: 0
+      }
+    }
+  }
+})
+
+export const Row = styled(Wrap, {
+  display: 'flex',
+  gap: '12px',
+
+  variants: {
+    direction: {
+      vertical: {
+        flexDirection: 'column'
+      },
+      horizontal: {
+        flexDirection: 'row'
       }
     }
   }
